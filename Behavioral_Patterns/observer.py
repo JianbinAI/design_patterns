@@ -89,14 +89,14 @@ notice.attach(Lena)
 notice.attach(Ayhan)
 
 # 发布天气消息
-notice.weather_info = '今夜阳光明媚'
+notice.weather_info = '今天阳光明媚'
 # 订阅者收到消息
-print(Lena.weather_info)  # 今夜阳光明媚
-print(Ayhan.weather_info)  # 今夜阳光明媚
+print(Lena.weather_info)  # 今天阳光明媚
+print(Ayhan.weather_info)  # 今天阳光明媚
 
 # 移除订阅者
 notice.detach(Ayhan)
 # 发布最新消息
 notice.weather_info = '暴风雨即将来临'
 print(Lena.weather_info)  # 暴风雨即将来临
-print(Ayhan.weather_info)  # 今夜阳光明媚
+print(Ayhan.weather_info)  # 今天阳光明媚

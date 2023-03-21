@@ -1,12 +1,12 @@
-- [Python设计模式](#python----)
-  * [1. 设计模式简介](#1-------)
-  * [2. 设计模式的六大原则](#2----------)
-    + [2.1 开闭原则（Open Close Principle）](#21------open-close-principle-)
-    + [2.2 里氏代换原则（Liskov Substitution Principle）](#22--------liskov-substitution-principle-)
-    + [2.3 依赖倒转原则（Dependence Inversion Principle）](#23--------dependence-inversion-principle-)
-    + [2.4 接口隔离原则（Interface Segregation Principle）](#24--------interface-segregation-principle-)
-    + [2.5 迪米特法则，又称最少知道原则（Demeter Principle）](#25----------------demeter-principle-)
-    + [2.6 合成复用原则（Composite Reuse Principle）](#26--------composite-reuse-principle-)
+- [Python设计模式](#python设计模式)
+  * [1. 设计模式简介](#1. 设计模式简介)
+  * [2. 设计模式的六大原则](#2. 设计模式的六大原则)
+    + [2.1 开闭原则（Open Close Principle）](#2.1 开闭原则（Open Close Principle）)
+    + [2.2 里氏代换原则（Liskov Substitution Principle）](#2.2 里氏代换原则（Liskov Substitution Principle）)
+    + [2.3 依赖倒转原则（Dependence Inversion Principle）](#2.3 依赖倒转原则（Dependence Inversion Principle）)
+    + [2.4 接口隔离原则（Interface Segregation Principle）](#2.4 接口隔离原则（Interface Segregation Principle）)
+    + [2.5 迪米特法则，又称最少知道原则（Demeter Principle）](#2.5 迪米特法则，又称最少知道原则（Demeter Principle）)
+    + [2.6 合成复用原则（Composite Reuse Principle）](#2.6 合成复用原则（Composite Reuse Principle）)
   * [3. 设计模式的分类](#3--------)
     + [3.1 创建型模式（Creational Patterns）](#31-------creational-patterns-)
       - [3.1.1 工厂模式（Factory Pattern）](#311------factory-pattern-)
@@ -85,7 +85,9 @@
 
 #### 3.1.1 工厂模式（Factory Pattern）
 
-**内容：**不直接向客户端暴露对象创建的实现细节，而是通过一个工厂类来负责创建产品类的实例。
+**内容：**
+
+​	不直接向客户端暴露对象创建的实现细节，而是通过一个工厂类来负责创建产品类的实例。
 
 **角色：**
     工厂角色（Creator）
